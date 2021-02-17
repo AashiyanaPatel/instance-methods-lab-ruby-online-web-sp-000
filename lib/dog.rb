@@ -3,12 +3,15 @@ class Dog
     puts "Woof!"
   end
 end
+
+fido = Dog.new
+fido.bark 
+
 class Dog
   def sit
     puts "The Dog is sitting"
-end 
-fido = Dog.new
-fido.bark 
+  end 
+end
 
 snoopy = Dog.new
 snoopy.sit
